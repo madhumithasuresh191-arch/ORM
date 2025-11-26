@@ -28,7 +28,7 @@ admin.site.register(amazon_DB,amazon_DBAdmin)
 
 
 models.py
-~~~~
+
  from django.db import models 
 from django.contrib import admin
 class amazon_DB (models.Model):
@@ -39,7 +39,7 @@ class amazon_DB (models.Model):
      Year=models.IntegerField()
 class amazon_DBAdmin(admin.ModelAdmin):
      list_display=["Product_name","S_no","Product_type","Price","Year"]
-
+~~~
 
 
 ### STEP 4:
