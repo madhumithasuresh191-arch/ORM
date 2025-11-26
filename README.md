@@ -19,6 +19,7 @@ Clone the problem from GitHub
 Create a new app in Django project
 
 ### STEP 3:
+ 
  admin.py
  ~~~~
 from django.contrib import admin
