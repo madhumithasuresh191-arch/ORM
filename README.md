@@ -25,7 +25,8 @@ from django.contrib import admin
 from .models import amazon_DB,amazon_DBAdmin
 admin.site.register(amazon_DB,amazon_DBAdmin)
 
- models.py
+
+models.py
 ~~~~
  from django.db import models 
 from django.contrib import admin
